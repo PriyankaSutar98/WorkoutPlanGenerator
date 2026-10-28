@@ -1,0 +1,11 @@
+[project]
+name = "workout-plan-generator"
+version = "0.1.0"
+description = "Streamlit app that generates personalized workout plans with Groq"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "groq>=1.2.0",
+    "python-dotenv>=1.0.0",
+    "streamlit>=1.40.0",
+]
